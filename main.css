@@ -1,0 +1,33 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    background: skyblue;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.container{
+    text-align: center;
+
+}
+.input{
+    font-size: 24px;
+    outline: grey solid;
+    border-radius: 7px;
+    -moz-outline-radius: 7px;
+}
+.btn{
+    background: whitesmoke;
+    color: black;
+    outline: none;
+    border-radius: 7px;
+    font-size: 26px;
+    
+
+}
+.btn:hover{
+    background: skyblue;
+    cursor: pointer;
+}
